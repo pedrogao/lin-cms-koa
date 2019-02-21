@@ -1,5 +1,5 @@
 import request from "supertest";
-import { createApp } from "../../../src/app/app";
+import { createApp } from "../../../ts/app/app";
 import Koa from "koa";
 import { getToken } from "./util";
 

@@ -1,8 +1,8 @@
-import { createApp } from "../../../src/app/app";
+import { createApp } from "../../../ts/app/app";
 import context from "../helper/context";
 import Koa from "koa";
-import { BookDao } from "../../../src/app/dao/v1/book";
-import { CreateOrUpdateBookForm } from "../../../src/app/validators/forms";
+import { BookDao } from "../../../ts/app/dao/v1/book";
+import { CreateOrUpdateBookForm } from "../../../ts/app/validators/forms";
 
 describe("book.test.ts", () => {
   let app: Koa;
