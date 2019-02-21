@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "allowJs": true,
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "rootDir": "./ts",
+    "importHelpers": true,
+    "strict": true,
+    "typeRoots": ["./node_modules/@types", "./ts/typings"],
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+  },
+  "exclude": ["node_modules"],
+  "include": ["ts", "ts/typings"]
+}

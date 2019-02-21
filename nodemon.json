@@ -1,0 +1,6 @@
+{
+  "watch": ["ts"],
+  "ext": "ts",
+  "ignore": ["tests", "dist", "node_modules"],
+  "exec": "ts-node ts/app/starter.ts"
+}

@@ -1,0 +1,49 @@
+{
+  "name": "lin-cms-koa",
+  "version": "0.0.1",
+  "description": "A simple and practical CMS implememted by koa",
+  "main": "index.js",
+  "scripts": {
+    "start:prod": "cross-env NODE_ENV=production node dist/app/starter.js",
+    "tsc": "tsc",
+    "tsc:prod": "rm -rf dist && tsc -p tsconfig.prod.json",
+    "test": "jest tests",
+    "start:dev": "nodemon"
+  },
+  "keywords": [
+    "lin",
+    "cms",
+    "koa"
+  ],
+  "author": "pedro",
+  "license": "MIT",
+  "dependencies": {
+    "@koa/cors": "^2.2.3",
+    "lin-cms-test": "^0.0.1-alpha3"
+  },
+  "devDependencies": {
+    "@types/eslint": "^4.16.6",
+    "@types/jest": "^24.0.6",
+    "@types/koa-bodyparser": "^4.2.2",
+    "@types/koa-router": "^7.0.39",
+    "@types/koa__cors": "^2.2.3",
+    "@types/lodash": "^4.14.121",
+    "@types/supertest": "^2.0.7",
+    "cross-env": "^5.2.0",
+    "eslint": "^5.14.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "jest": "^23.6.0",
+    "nodemon": "^1.18.9",
+    "supertest": "^3.4.2",
+    "ts-jest": "^23.10.5",
+    "ts-node": "^8.0.2",
+    "tslib": "^1.9.3",
+    "tslint": "^5.12.1",
+    "tslint-config-standard": "^8.0.1",
+    "typescript": "^3.2.4"
+  }
+}
