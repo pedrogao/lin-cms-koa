@@ -19,7 +19,7 @@
   "license": "MIT",
   "dependencies": {
     "@koa/cors": "^2.2.3",
-    "lin-cms-test": "^0.0.1-alpha3",
+    "lin-cms-test": "^0.0.1-alpha4",
     "tslib": "^1.9.3"
   },
   "devDependencies": {
