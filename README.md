@@ -6,6 +6,8 @@
 
 **lin-cms-koa 目前仅作为个人项目进行开发，强烈不建议用于实际项目**
 
+**已经移到了官方仓库，请查看[官方仓库](https://github.com/TaleLin/lin-cms-koa)**
+
 lin-cms 的[前端仓库](https://github.com/TaleLin/lin-cms-vue)
 
 ## 开始
